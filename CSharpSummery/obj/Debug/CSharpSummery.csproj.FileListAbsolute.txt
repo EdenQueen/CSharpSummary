@@ -1,1 +1,6 @@
 D:\我的文档\Csharp\CSharpSummery\CSharpSummery\bin\Debug\CSharpSummery.exe.config
+D:\我的文档\Csharp\CSharpSummery\CSharpSummery\bin\Debug\CSharpSummery.exe
+D:\我的文档\Csharp\CSharpSummery\CSharpSummery\bin\Debug\CSharpSummery.pdb
+D:\我的文档\Csharp\CSharpSummery\CSharpSummery\obj\Debug\CSharpSummery.csprojResolveAssemblyReference.cache
+D:\我的文档\Csharp\CSharpSummery\CSharpSummery\obj\Debug\CSharpSummery.exe
+D:\我的文档\Csharp\CSharpSummery\CSharpSummery\obj\Debug\CSharpSummery.pdb

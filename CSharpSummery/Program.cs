@@ -10,6 +10,9 @@ namespace CSharpSummery
     {
         static void Main(string[] args)
         {
+            //在vs2013以及vs2017上编写代码
+            Console.WriteLine("Hello World");
+            Console.ReadKey();
         }
     }
 }
