@@ -22,13 +22,17 @@ namespace CSharpSummery
          */
         static void Main(string[] args)
         {
-            ////在vs2013以及vs2017上编写代码
-            //Console.WriteLine("Hello World");
-            //Console.ReadKey();
+            //Variable();
+            Expression();
+        }
+
+        static void Variable()
+        {
             /*
             变量的命名规则，
             1.第一个字母必须是字母，下划线，或者@
             2.剩下的字母可以是字母，数字，下划线
+             * 关于命名
             */
             //声明变量myInt，myStr;
             int myInt;
@@ -41,6 +45,31 @@ namespace CSharpSummery
             //Console.ReadKey()用途是暂停代码执行，等待用户执行下一操作；当不加该语句，控制台会一闪而过
             Console.ReadKey();
             //输出"my age"is18;
+        }
+        static void Expression()
+        {
+            /*
+             * 表达式是由数值和运算符组成
+             * 运算符分为三种，一元运算符，二元运算符，三元运算符
+             * 一元运算符包括，+，-，++，--等
+             * 二元运算符包括+，-，*，/，%等
+             */
+            double firstNum, secondNum;
+            string name;
+            Console.WriteLine("Please enter your name:");
+            name = Console.ReadLine();
+            Console.WriteLine("Welcome{0} ", name);
+            Console.WriteLine("Please enter a number:");
+            firstNum = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Please enter another number:");
+            secondNum = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, firstNum + secondNum);
+            Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, firstNum - secondNum);
+            Console.WriteLine("{0} * {1} = {2}", firstNum, secondNum, firstNum * secondNum);
+            Console.WriteLine("{0} / {1} = {2}", firstNum, secondNum, firstNum / secondNum);
+            Console.WriteLine("{0} % {1} = {2}", firstNum, secondNum, firstNum % secondNum);
+            Console.ReadKey();
+
         }
     }
 }
