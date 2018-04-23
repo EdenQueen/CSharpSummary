@@ -25,6 +25,11 @@ namespace CSharpSummery
             ////在vs2013以及vs2017上编写代码
             //Console.WriteLine("Hello World");
             //Console.ReadKey();
+            /*
+            变量的命名规则，
+            1.第一个字母必须是字母，下划线，或者@
+            2.剩下的字母可以是字母，数字，下划线
+            */
             //声明变量myInt，myStr;
             int myInt;
             string myStr;
