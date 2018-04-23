@@ -53,13 +53,23 @@ namespace CSharpSummery
              * 运算符分为三种，一元运算符，二元运算符，三元运算符
              * 一元运算符包括，+，-，++，--等
              * 二元运算符包括+，-，*，/，%等
+             * 赋值运算符：=，==，/=，+=，-=，%=等
+             * var1 += var2 与 var1 = var1 + var2等价
+             * 
+             * 运算符优先级：++，--（用做前缀），+，-（一元）
+             *               *，/，%
+             *               +，-
+             *               =，*=， /=， %=，+=，-=
+             *               ++， --（用做后缀）
              */
             double firstNum, secondNum;
             string name;
             Console.WriteLine("Please enter your name:");
+            //使用Console.ReadLine()提示用户输入信息，并存储在string变量中
             name = Console.ReadLine();
             Console.WriteLine("Welcome{0} ", name);
             Console.WriteLine("Please enter a number:");
+            //将string变量转化成double形式
             firstNum = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please enter another number:");
             secondNum = Convert.ToDouble(Console.ReadLine());
