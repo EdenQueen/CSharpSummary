@@ -1,4 +1,7 @@
-﻿#region Using Directives
+﻿/*
+ * 名称空间：应用程序代码的容器
+ */
+#region Using Directives
 using System;
 using System.Collections.Generic;
 using System.Linq;
