@@ -26,7 +26,9 @@ namespace CSharpSummery
         static void Main(string[] args)
         {
             //Variable();
-            Expression();
+            //Expression();
+            //Bool();
+            Goto();
         }
 
         static void Variable()
@@ -83,6 +85,31 @@ namespace CSharpSummery
             Console.WriteLine("{0} % {1} = {2}", firstNum, secondNum, firstNum % secondNum);
             Console.ReadKey();
 
+        }
+
+        static void Bool()
+        {
+            bool isLessThen10;
+            bool isBetween5And10;
+            Console.WriteLine("请输入一个整数");
+            int isInt = Convert.ToInt32(Console.ReadLine());
+            isLessThen10 = isInt < 10;
+            isBetween5And10 = (isInt > 5) && (isInt < 10);
+            Console.WriteLine("数字小于10：{0}", isLessThen10);
+            Console.WriteLine("数字在5到10之间：{0}", isBetween5And10);
+            Console.WriteLine("上述有且只有一个是真的：{0}", isLessThen10 ^ isBetween5And10);
+            Console.ReadKey();
+        }
+        static void Goto()
+        {
+            int myInt = 5;
+            goto myLable;
+            myInt = 10;
+
+        myLable:
+            Console.WriteLine("myInt = {0}", myInt);
+
+        Console.ReadKey();
         }
     }
 }
